@@ -1,0 +1,5 @@
+{
+    "*.py": {
+        "start": "python backend/manage.py runserver"
+    }
+}
