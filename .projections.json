@@ -1,5 +1,8 @@
 {
-    "*.py": {
+    "backend/*": {
         "start": "python backend/manage.py runserver"
+    },
+    "frontend/*": {
+        "start": "cd frontend/ && yarn dev"
     }
 }

@@ -9,7 +9,7 @@ from django.views.decorators.cache import cache_page
 from books.serializers import BookSerializer, AuthorSerializer
 from .models import Book, Author
 
-CACHE_TIME = 60 * 60 * 1
+CACHE_TIME = 1
 
 # Create your views here.
 class AuthorsApiView(APIView):
